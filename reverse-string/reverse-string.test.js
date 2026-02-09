@@ -1,17 +1,17 @@
 import { reverseString } from "./reverse-string";
 
-skip.test("reverses `hello`", () => {
+test.skip("reverses `hello`", () => {
   expect(reverseString("hello")).toBe("olleh");
 });
 
-skip.test("reverses `apple`", () => {
+test.skip("reverses `apple`", () => {
   expect(reverseString("apple")).toBe("elppa");
 });
 
-skip.test("reverses `banana`", () => {
+test.skip("reverses `banana`", () => {
   expect(reverseString("banana")).toBe("ananab");
 });
 
-skip.test("reverses `fruits are cool`", () => {
+test.skip("reverses `fruits are cool`", () => {
   expect(reverseString("fruits are cool")).toBe("looc era stiurf");
 });
